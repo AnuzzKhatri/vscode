@@ -1,5 +1,5 @@
 {
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"configurations": [
 		{
 			"type": "node",
@@ -232,7 +232,7 @@
 			"port": 9222,
 			"timeout": 0,
 			"env": {
-				"VSCODE_EXTHOST_WILL_SEND_SOCKET": null,
+				"VSCODE_EXTHOST_WILL_SEND_SOCKET": \0,
 				"VSCODE_SKIP_PRELAUNCH": "1"
 			},
 			"cleanUp": "wholeBrowser",
@@ -602,7 +602,7 @@
 		},
 		{
 			"name": "Renderer and Main processes",
-			"stopAll": true,
+			"stopAll": false,
 			"configurations": [
 				"Launch VS Code Internal",
 				"Attach to Main Process"
